@@ -298,6 +298,8 @@
     <Compile Include="Assets\AssetStore\RainMaker\Prefab\RainCollision.cs" />
     <Compile Include="Assets\AssetStore\RainMaker\Prefab\RainScript.cs" />
     <Compile Include="Assets\AssetStore\RainMaker\Prefab\RainScript2D.cs" />
+    <Compile Include="Assets\Item.cs" />
+    <Compile Include="Assets\PhoneLight.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetStore\RainMaker\Prefab\RainShader.shader" />
