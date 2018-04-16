@@ -64,8 +64,9 @@
      <Compile Include="Assets\Item.cs" />
      <Compile Include="Assets\PhoneLight.cs" />
      <None Include="Assets\AssetStore\RainMaker\Prefab\RainShader.shader" />
+     <None Include="Assets\AssetStore\Mega Fantasy Props Pack\README.txt" />
      <None Include="Assets\AssetStore\RainMaker\Readme.txt" />
-     <None Include="Assets\AssetStore\SkySerie Freebie\Hdri setup.txt" />
+     <None Include="Assets\AssetStore\Fantasy Bridges\Modular Fantasy Bridges\README.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
