@@ -1,17 +1,14 @@
-﻿/*using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Item : MonoBehaviour {
 
-	// Use this for initialization
-	/*void Start () {
-		
-	}*/
-    /*private bool played = false;
+    private bool played = false;
 
     void OnTriggerEnter(Collider col)
     {
+
         if(col.gameObject.tag == "play")
         {
             PickUp();
@@ -21,7 +18,6 @@ public class Item : MonoBehaviour {
     public void PickUp()
     {
         Light PhoneLight = Camera.main.gameObject.GetComponent<Light>();
-        PhoneLight.MinusBattery();
 
         if(played == true)
         {
@@ -31,14 +27,12 @@ public class Item : MonoBehaviour {
 
     void OnGUI()
     {
+        //GUI.DrawTexture(Rect (Screen.width / 2 - 50, Screen.height / 2 - 55, 120, 50), "Pick up Item");
         if (Event.current.keyCode == KeyCode.E)
         {
             played = true;
             PickUp();
         }
     }
-	// Update is called once per frame
-	void Update () {
+}
 
-    }
-}*/
