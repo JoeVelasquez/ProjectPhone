@@ -6,7 +6,7 @@ public class Item : MonoBehaviour {
 
     public bool buttonInRanged;
     private bool played = false;
-    private static float minusbat = 10;
+    //private static float minusbat = 10;
 
     void OnTriggerEnter(Collider col)
     {
@@ -33,7 +33,7 @@ public class Item : MonoBehaviour {
             {
                 if(!played)
                 {
-                    PhoneLight.depleteBat(minusbat);
+                    //PhoneLight.depleteBat(minusbat);
                     Destroy(gameObject);
                     played = true;
                 }
