@@ -1710,10 +1710,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightDrain: 0.1
-  batteryLife: 100
   maxbatteryLife: 100
   currentBatteryLife: {fileID: 791902254}
   Batratio: {fileID: 780167428}
+  Plight: {fileID: 583484354}
 --- !u!108 &795706643
 Light:
   m_ObjectHideFlags: 0

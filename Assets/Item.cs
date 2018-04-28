@@ -6,38 +6,40 @@ public class Item : MonoBehaviour {
 
     public bool buttonInRanged;
     private bool played = false;
+    private static float minusbat = 10;
 
     void OnTriggerEnter(Collider col)
     {
-
-        if(col.gameObject.tag == "play")
-        {
-            OnGUI();
-            
-            PickUp();
-        }
+        buttonInRanged = true;
     }
-	
-    public void PickUp()
+	void OnTriggerExit(Collider col)
     {
-        Light PhoneLight = Camera.main.gameObject.GetComponent<Light>();
-
-        if(played == true)
-        {
-            Object.Destroy(gameObject);
-
-        }
+        buttonInRanged = false;
     }
 
     public void OnGUI()
     {
-        GUI.Label(new Rect (Screen.width / 2 - 50, Screen.height / 2 - 55, 120, 50), "Pick up Item");
-
+        if(buttonInRanged == true)
+        {
+            GUI.Label(new Rect (Screen.width / 2 - 50, Screen.height / 2 - 55, 120, 50), "Pick up Item 'E'");
+        }
     }
 
     void Update()
     {
-
+        if(buttonInRanged == true)
+        {
+            if(Input.GetKey("e"))
+            {
+                if(!played)
+                {
+                    PhoneLight.depleteBat(minusbat);
+                    Destroy(gameObject);
+                    played = true;
+                }
+                
+            }
+        }
     }
 }
 
