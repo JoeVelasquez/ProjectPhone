@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Item : MonoBehaviour {
 
+    public bool buttonInRanged;
     private bool played = false;
 
     void OnTriggerEnter(Collider col)
@@ -11,6 +12,8 @@ public class Item : MonoBehaviour {
 
         if(col.gameObject.tag == "play")
         {
+            OnGUI();
+            
             PickUp();
         }
     }
@@ -22,17 +25,19 @@ public class Item : MonoBehaviour {
         if(played == true)
         {
             Object.Destroy(gameObject);
+
         }
     }
 
-    void OnGUI()
+    public void OnGUI()
     {
-        //GUI.DrawTexture(Rect (Screen.width / 2 - 50, Screen.height / 2 - 55, 120, 50), "Pick up Item");
-        if (Event.current.keyCode == KeyCode.E)
-        {
-            played = true;
-            PickUp();
-        }
+        GUI.Label(new Rect (Screen.width / 2 - 50, Screen.height / 2 - 55, 120, 50), "Pick up Item");
+
+    }
+
+    void Update()
+    {
+
     }
 }
 

@@ -27,9 +27,9 @@ public class PhoneLight : MonoBehaviour
             batteryLife -= Time.deltaTime * lightDrain;
             float ratio = batteryLife / maxbatteryLife;
             currentBatteryLife.rectTransform.localScale = new Vector3(ratio, 1, 1);
-            Batratio.text = batteryLife.ToString() + '%';
+            Batratio.text = batteryLife.ToString("0.00") + '%';
         }
-        if (light.enabled == false && batteryLife >= 0)
+        /*if (light.enabled == false && batteryLife >= 0)
         {
             batteryLife += Time.deltaTime * lightDrain;
             float ratio = batteryLife / maxbatteryLife;
@@ -39,7 +39,7 @@ public class PhoneLight : MonoBehaviour
             {
                 batteryLife = 100;
             }
-        }
+        }*/
         if (batteryLife <= 0)
         {
             batteryLife = 0;
