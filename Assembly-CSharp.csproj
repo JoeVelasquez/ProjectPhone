@@ -61,12 +61,16 @@
      <Compile Include="Assets\AssetStore\RainMaker\Prefab\RainCollision.cs" />
      <Compile Include="Assets\AssetStore\RainMaker\Prefab\RainScript.cs" />
      <Compile Include="Assets\AssetStore\RainMaker\Prefab\RainScript2D.cs" />
+     <Compile Include="Assets\DungeonModules\Scripts\DoorAOpen.cs" />
      <Compile Include="Assets\Item.cs" />
      <Compile Include="Assets\PhoneLight.cs" />
      <None Include="Assets\AssetStore\RainMaker\Prefab\RainShader.shader" />
      <None Include="Assets\AssetStore\Mega Fantasy Props Pack\README.txt" />
      <None Include="Assets\AssetStore\RainMaker\Readme.txt" />
      <None Include="Assets\AssetStore\Fantasy Bridges\Modular Fantasy Bridges\README.txt" />
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>C:/Users/Administrator/Documents/GitHub/ProjectPhone/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -168,9 +172,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/Administrator/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="Facebook.Unity.Settings">
- <HintPath>C:/Users/Administrator/Documents/GitHub/ProjectPhone/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

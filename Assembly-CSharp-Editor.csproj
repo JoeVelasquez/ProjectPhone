@@ -54,6 +54,9 @@
      <Compile Include="Assets\AssetStore\NoiseBrush\Scripts\Editor\Layout.cs" />
      <Compile Include="Assets\AssetStore\NoiseBrush\Scripts\Editor\NoiseBrushEditor.cs" />
      <Compile Include="Assets\AssetStore\RainMaker\Editor\RainMakerEditor.cs" />
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>C:/Users/Administrator/Documents/GitHub/ProjectPhone/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -155,9 +158,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/Administrator/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="Facebook.Unity.Settings">
- <HintPath>C:/Users/Administrator/Documents/GitHub/ProjectPhone/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
