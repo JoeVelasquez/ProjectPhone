@@ -33,7 +33,7 @@ public class Item : MonoBehaviour {
             {
                 if(!played)
                 {
-                    PhoneLight.depleteBat(minusbat);
+                    //PhoneLight.depleteBat(minusbat);
                     Destroy(gameObject);
                     played = true;
                 }
