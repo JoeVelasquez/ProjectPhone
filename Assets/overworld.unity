@@ -3470,6 +3470,10 @@ Prefab:
       propertyPath: BypassReverbZones
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
@@ -7770,6 +7774,24 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66ce2554d943ab14db051b408dc948ed, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1307443783 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 518869513}
+--- !u!114 &1307443784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1307443783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e6038caf8fafa49ae9d42df43b2219, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  count: 0
+  tcount: 4
+  playing: 0
 --- !u!1 &1334760523
 GameObject:
   m_ObjectHideFlags: 0
@@ -10339,6 +10361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 581759f0f89028545a29f16dd813fccd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonInRanged: 0
 --- !u!23 &1739399509
 MeshRenderer:
   m_ObjectHideFlags: 0

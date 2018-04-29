@@ -303,6 +303,7 @@
     <Compile Include="Assets\AssetStore\RainMaker\Prefab\RainScript2D.cs" />
     <Compile Include="Assets\DungeonModules\Scripts\DoorAOpen.cs" />
     <Compile Include="Assets\Item.cs" />
+    <Compile Include="Assets\ItemCounter.cs" />
     <Compile Include="Assets\MainMenu\menuScript.cs" />
     <Compile Include="Assets\PhoneLight.cs" />
   </ItemGroup>
