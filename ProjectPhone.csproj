@@ -318,6 +318,7 @@
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\ItemCounter.cs" />
     <Compile Include="Assets\Scripts\PhoneLight.cs" />
+    <Compile Include="Assets\Scripts\SafeCircle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetStore\Fantasy Bridges\Modular Fantasy Bridges\README.txt" />
