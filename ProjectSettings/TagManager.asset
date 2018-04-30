@@ -6,6 +6,7 @@ TagManager:
   tags:
   - count
   - SafeCircle
+  - Monster
   layers:
   - Default
   - TransparentFX
