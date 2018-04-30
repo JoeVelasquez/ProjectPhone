@@ -315,22 +315,16 @@
     <Compile Include="Assets\AssetStore\RainMaker\Prefab\RainScript2D.cs" />
     <Compile Include="Assets\DungeonModules\Scripts\DoorAOpen.cs" />
     <Compile Include="Assets\MainMenu\menuScript.cs" />
-    <Compile Include="Assets\Scripts\Death.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\ItemCounter.cs" />
-    <Compile Include="Assets\Scripts\MonsterFollow.cs" />
-    <Compile Include="Assets\Scripts\MoveTo.cs" />
     <Compile Include="Assets\Scripts\PhoneLight.cs" />
     <Compile Include="Assets\Scripts\SafeCircle.cs" />
-    <Compile Include="Assets\Scripts\Staminabar.cs" />
-    <Compile Include="Assets\Scripts\TestFollow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetStore\Fantasy Bridges\Modular Fantasy Bridges\README.txt" />
     <None Include="Assets\AssetStore\Mega Fantasy Props Pack\README.txt" />
     <None Include="Assets\AssetStore\RainMaker\Prefab\RainShader.shader" />
     <None Include="Assets\AssetStore\RainMaker\Readme.txt" />
-    <None Include="Assets\Smartphone\StandardColorMask.shader" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
