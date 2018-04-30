@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\Item.cs" />
      <Compile Include="Assets\Scripts\ItemCounter.cs" />
      <Compile Include="Assets\Scripts\PhoneLight.cs" />
+     <Compile Include="Assets\Scripts\Staminabar.cs" />
      <None Include="Assets\Smartphone\StandardColorMask.shader" />
      <None Include="Assets\AssetStore\RainMaker\Prefab\RainShader.shader" />
      <None Include="Assets\AssetStore\Mega Fantasy Props Pack\README.txt" />
