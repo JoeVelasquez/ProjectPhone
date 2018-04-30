@@ -319,12 +319,14 @@
     <Compile Include="Assets\Scripts\ItemCounter.cs" />
     <Compile Include="Assets\Scripts\PhoneLight.cs" />
     <Compile Include="Assets\Scripts\SafeCircle.cs" />
+    <Compile Include="Assets\Scripts\Staminabar.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetStore\Fantasy Bridges\Modular Fantasy Bridges\README.txt" />
     <None Include="Assets\AssetStore\Mega Fantasy Props Pack\README.txt" />
     <None Include="Assets\AssetStore\RainMaker\Prefab\RainShader.shader" />
     <None Include="Assets\AssetStore\RainMaker\Readme.txt" />
+    <None Include="Assets\Smartphone\StandardColorMask.shader" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
