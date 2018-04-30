@@ -26,11 +26,11 @@ public class ItemCounter : MonoBehaviour {
     {
         if (count < tcount)
         {
-            GUI.Box(new Rect((Screen.width / 2) - 100, 10, 200, 35), "" + count + " items found");
+            GUI.Box(new Rect((Screen.width / 2) - 100, 10, 200, 35), " " + count + " items found");
         }
         else
         {
-            GUI.Box(new Rect((Screen.width / 2) - 100, 10, 200, 35), "You have collected all the ritual items.");
+            GUI.Box(new Rect((Screen.width / 2) - 100, 10, 200, 35), "All the ritual items found.");
         }
     }
 	
@@ -43,11 +43,11 @@ public class ItemCounter : MonoBehaviour {
             {
                 if (!played)
                 {
-                    count += 1;
+                    count = count + 1;
                     Debug.Log("You picked up a ritual item. Item = " + count);
                     played = true;
                 }
-
+                played = false;
             }
         }
     }

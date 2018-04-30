@@ -938,7 +938,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 439572, guid: 760548f18aa646341b9f69fdb3425502, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 43.114937
+      value: 43.128
       objectReference: {fileID: 0}
     - target: {fileID: 439572, guid: 760548f18aa646341b9f69fdb3425502, type: 2}
       propertyPath: m_LocalPosition.z
@@ -967,6 +967,10 @@ Prefab:
     - target: {fileID: 134572, guid: 760548f18aa646341b9f69fdb3425502, type: 2}
       propertyPath: m_Name
       value: vase-Item
+      objectReference: {fileID: 0}
+    - target: {fileID: 134572, guid: 760548f18aa646341b9f69fdb3425502, type: 2}
+      propertyPath: m_TagString
+      value: count
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 760548f18aa646341b9f69fdb3425502, type: 2}
@@ -4066,6 +4070,10 @@ Prefab:
       propertyPath: m_Name
       value: book-Item
       objectReference: {fileID: 0}
+    - target: {fileID: 123056, guid: 08664425fe4b55a438efa73476965e3a, type: 2}
+      propertyPath: m_TagString
+      value: count
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 08664425fe4b55a438efa73476965e3a, type: 2}
   m_IsPrefabParent: 0
@@ -5667,6 +5675,34 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 406322, guid: 2b3a2892cf7649d4eb5355cad86eea6d, type: 2}
   m_PrefabInternal: {fileID: 951500964}
+--- !u!1 &963143769 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 120844, guid: 1f44ff26a40ad394081c1f8220d99413, type: 2}
+  m_PrefabInternal: {fileID: 1798091666}
+--- !u!114 &963143774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 963143769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 581759f0f89028545a29f16dd813fccd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonInRanged: 0
+--- !u!135 &963143775
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 963143769}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.73
+  m_Center: {x: 0, y: 0.2847972, z: 0}
 --- !u!1001 &964516337
 Prefab:
   m_ObjectHideFlags: 0
@@ -7737,6 +7773,34 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66ce2554d943ab14db051b408dc948ed, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1306929321 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 123056, guid: 08664425fe4b55a438efa73476965e3a, type: 2}
+  m_PrefabInternal: {fileID: 667444269}
+--- !u!114 &1306929326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1306929321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 581759f0f89028545a29f16dd813fccd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonInRanged: 0
+--- !u!135 &1306929327
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1306929321}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.72
+  m_Center: {x: 0.035916865, y: 0.29135814, z: 0.01760774}
 --- !u!1 &1307443783 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
@@ -9707,6 +9771,34 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 448174, guid: 2e85e654d9d08b54294966420d8a2155, type: 2}
   m_PrefabInternal: {fileID: 674303689}
+--- !u!1 &1625076586 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 134572, guid: 760548f18aa646341b9f69fdb3425502, type: 2}
+  m_PrefabInternal: {fileID: 193152184}
+--- !u!114 &1625076591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1625076586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 581759f0f89028545a29f16dd813fccd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonInRanged: 0
+--- !u!135 &1625076592
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1625076586}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.17
+  m_Center: {x: 0, y: 0.5193312, z: 0}
 --- !u!1 &1630850974
 GameObject:
   m_ObjectHideFlags: 0
@@ -10881,6 +10973,10 @@ Prefab:
     - target: {fileID: 120844, guid: 1f44ff26a40ad394081c1f8220d99413, type: 2}
       propertyPath: m_Name
       value: candle-Item
+      objectReference: {fileID: 0}
+    - target: {fileID: 120844, guid: 1f44ff26a40ad394081c1f8220d99413, type: 2}
+      propertyPath: m_TagString
+      value: count
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f44ff26a40ad394081c1f8220d99413, type: 2}
