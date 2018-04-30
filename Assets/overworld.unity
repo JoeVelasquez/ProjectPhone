@@ -8198,7 +8198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   count: 0
-  tcount: 4
+  tcount: 0
   playing: 0
 --- !u!1 &1334760523
 GameObject:
